@@ -1,0 +1,28 @@
+:root{
+    
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.container {  
+    display: flex;  
+    justify-content: center;  
+    align-items: center; 
+    height: 100vh; 
+} 
+.myback{
+background-size:cover ;
+background-repeat: no-repeat;
+width: 340px;
+height: auto;
+color: #fff;
+margin: 10px;
+padding: 10px;
+border-radius: 1pc;
+border-style: none;
+filter: drop-shadow(1px 1px 20px rgba(158, 158, 67, 0));
+backdrop-filter: blur(10px);
+
+
+}
+

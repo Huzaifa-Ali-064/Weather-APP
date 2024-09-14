@@ -1,0 +1,51 @@
+.highlight{
+    border-radius: 4px;
+    min-width:110px;
+    border-color: aqua;
+    height: auto;
+    padding: 5px;
+    margin:3px;
+    margin-top: 10px;
+  }
+.highlightall{
+      display: flex;
+      flex-wrap: wrap;
+      min-width: 100px;
+      justify-content: space-between;
+}
+.sun{
+    color: yellow;
+   
+}
+.Search{
+    min-width: 200px;
+    border-style: none;
+    background-color: transparent;
+    color: #fff;
+    height: 15px;   
+}
+.Search:focus{
+    outline: none;
+}
+input[type="search"]::placeholder {  
+    color: white; 
+    opacity: 0.5; 
+} 
+
+hr{
+    color: black;
+}
+
+.moon{
+    font-size: larger;
+    font-size: 4em;
+    margin-top: 15px;
+}
+
+.CloudyImg{
+        width: 50px;
+        font-size: 3em;
+}
+.degree{
+    font-size: 1em ;
+}

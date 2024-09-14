@@ -1,0 +1,54 @@
+
+.mainBody{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-items: center;
+  min-height: 30rem;
+  background-color: rgba(3, 3, 3, 0.863);
+  min-width: 330px;
+  border-radius: 30px;
+
+}
+.Startbtn{
+  position: relative;
+  width: 200px;
+  height: 35px;
+  background-color: rgba(27, 19, 19, 0.1);
+  border: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #19fe04;
+  text-decoration: none;
+  letter-spacing: 2px;
+  border: 0.5px solid rgba(255.255.255 0.9);
+  padding-left:40px ;
+  transition: 0.5s;
+  border-radius: 1pc;
+  font-size: large;
+  
+}
+.Startbtn:hover{
+  padding-left: 0px;
+  padding-right: 50px;
+  color: rgba(255,255,255,1);
+  border: 1px solid rgba(255.255.255 0.5);
+}
+.Startbtn span{
+  position: absolute;
+  left: 5px;
+  width: 30px;
+  height: 30px;
+  background-color: #04fe4d;
+  border-radius: 50%;
+  transition: 0.5s ease-in-out;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  font-size: 1.5em;
+}
+.Startbtn:hover span{
+left:calc(100% - 35px)
+}
